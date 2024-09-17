@@ -9,5 +9,10 @@ function increaseCount(){
 }
 
 function discresCount(){
-    console.log(788)
+    let currentCount =Number(count.innerText);
+    if(currentCount>0){
+        currentCount--
+    }
+    
+    count.innerText =currentCount;
 }
