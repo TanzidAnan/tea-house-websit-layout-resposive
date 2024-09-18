@@ -46,14 +46,17 @@
 
   <body class="font-manrope">
     <section class="flex justify-center items-center h-screen">
-      <div id="counter" class="card p-4">
-        <p>Count: <span id="count">0</span></p>
-        <div class="flex space-x-3">
-          <button  id="increaseCount" class="increase-button">Increase [+]</button>
-          <button onclick="discresCount()" class="decrease-button">Decrease [-]</button>
-        </div>
-      </div>
+      <nav class="w-full">
+        <ul id="nav-container" class="mx-auto w-1/2 flex justify-around">
+          <li class="p-4">All</li>
+          <li class="p-4">Politics</li>
+          <li class="p-4">Sports</li>
+          <li class="p-4">Entertainment</li>
+          <li class="p-4">Education</li>
+          <li class="p-4">Misc</li>
+        </ul>
+      </nav>
     </section>
-    <script src="./js/simple-counter.js"></script>
+    <script src="./js//navbar-active-status.js"></script>
   </body>
 </html>

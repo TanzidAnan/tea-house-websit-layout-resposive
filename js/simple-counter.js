@@ -16,3 +16,9 @@ function discresCount(){
     
     count.innerText =currentCount;
 }
+
+document.getElementById('increaseCount').addEventListener('click', function(){
+   let carrentCount = Number(count.innerText);
+   carrentCount++
+   count.innerText =carrentCount
+})
